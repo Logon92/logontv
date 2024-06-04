@@ -2,7 +2,7 @@ import { peliculasESDLA } from "./datos";
 import { pintarListaPeliculas } from "./ui";
 
 document.addEventListener("DOMContentLoaded", () => {
-    pintarListaPeliculas(peliculasESDLA, {titulo: "Universo Tolkien"});
+    pintarListaPeliculas(peliculasESDLA, {titulo: "Todas las películas"});
     pintarListaPeliculas(peliculasESDLA,
         {
             titulo: "El señor de los anillos",
@@ -12,5 +12,10 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             titulo: "El hobbit",
             filtro: {genero: "Aventuras", caracteristica: "genero"}
+        });
+    pintarListaPeliculas(peliculasESDLA,
+        {
+            titulo: "Saga Star Wars",
+            filtro: {genero: "Star Wars", caracteristica: "genero"}
         });
 });

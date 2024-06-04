@@ -28,7 +28,9 @@
   }
 
   nav img {
-  height: 40px;
+    display: flex;
+    height: 100px;
+    width: 200px;
   }
 
   nav ul {
@@ -60,7 +62,7 @@
   }
 
   .hero button {
-  background-color: #e50914;
+  background-color: #34badb;
   color: #ffffff;
   font-size: 24px;
   padding: 10px 20px;
@@ -135,3 +137,5 @@
   .flecha-derecha {
   right: 0;
   }
+
+  

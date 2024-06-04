@@ -18,7 +18,7 @@ export const nombreClases = {
 
 export type TipoFlecha = "izquierda" | "derecha";
 
-export type TipoGenero = "Acción" | "Aventuras";
+export type TipoGenero = "Acción" | "Aventuras" | "Star Wars";
 
 type TipoCaracteristica = "genero";
 
